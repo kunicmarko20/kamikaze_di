@@ -3,7 +3,7 @@
 [Build Status]: https://travis-ci.org/fabianbadoi/kamikaze_di.svg?branch=master
 [travis]: https://travis-ci.org/fabianbadoi/kamikaze_di
 
-This is what a dependency injection container for Rust. It's inspired by container libraries in other languages.
+This is a dependency injection container for Rust. It's inspired by container libraries in other languages.
 
 I mostly want to know what people think, and if anyone would want to use something like this.
 
@@ -43,7 +43,7 @@ There are two important concepts in Rust: ownershipt and mutability. Both influe
 
 ### Ownership
 
-Data can only have one owner, so who ownes what when do you do:
+Data can only have one owner, so who ownes what when you do:
 ```rust
 let db = container.resolve::<Database>();
 ```
